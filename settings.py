@@ -15,3 +15,10 @@ class Settings():
         self.bullet_height = 15
         self.bullet_color = (94, 251, 17)
         self.bullets_allowed = 3
+        self.ship_limit = 3
+
+        # Настройки пришельцев
+        self.alien_speed = 1.0
+        self.fleet_drop_speed = 10
+        # fleet_direction = 1 means to the right; -1 means to the left
+        self.fleet_direction = 1
